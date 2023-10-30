@@ -25,7 +25,7 @@ public class Main {
     public static void main(String[] args) {
         IOS_17 IOS17 = () -> System.out.println("New options added");
         IOS17.doSomethingNew();
-        IOS_16 iphone15 = new IOS_16();
+        IOS_16 iphone14 = new IOS_16();
         IOS_17 adapter = new OldSystemAdapter(iphone16);
         adapter.doSomethingNew();
     }
